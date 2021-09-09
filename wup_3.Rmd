@@ -49,7 +49,12 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 The P value represents the chances of getting a result like we just obtained if the null hypothesis is actually true. Since the result is so small, I reject the null hypothesis.
+We need to try and discover what is different from the other.
+```{r}
+plot(TukeyHSD(model1))
+```
 
+Based on the chart, the front and the middle are no different from another. The front/back and the back/middle are in fact different from each other.
 
 
 ## Conclusions
