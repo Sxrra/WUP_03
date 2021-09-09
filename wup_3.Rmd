@@ -59,4 +59,4 @@ Based on the chart, the front and the middle are no different from another. The 
 
 ## Conclusions
 
-
+Overall, we found out that there were three different categories: a front, back, and a middle. We had to use anova to understand the amount of drinks per week were consumed from each category. The front and the middle are no different from another. The front/back and the back/middle are in fact different from each other.
